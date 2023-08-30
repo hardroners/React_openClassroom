@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Survey from './pages/Survey';
-import Header from './components/Header';
-import ClientForm from './components/ClientForm';
-import FreelanceForm from './components/FreelanceForm';
-import Error from './components/Error';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Survey from './pages/Survey'
+import Header from './components/Header'
+import ClientForm from './components/ClientForm'
+import FreelanceForm from './components/FreelanceForm'
+import Error from './components/Error'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
       <React.StrictMode>
             <Router>
@@ -26,4 +26,4 @@ root.render(
                   </Routes>
             </Router>
       </React.StrictMode>
-);
+)
